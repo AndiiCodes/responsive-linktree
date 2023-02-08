@@ -2,6 +2,7 @@
 *,body{
     font-family: Inter, Arial, Helvetica, sans-serif;;
     
+    
 }
 
 .brand{
@@ -17,6 +18,7 @@
 
 .main-text{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .main-text h1{
@@ -32,9 +34,8 @@
 }
 .secondary-text small{
     margin-bottom: 50px;
-
-font-size: 20px;
-font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
 }
 .grid {
     column-gap: 1rem;
@@ -47,7 +48,7 @@ font-weight: 400;
 }
 
 .card{
-    /*  */
+    
     padding-top: 10px;
     border-left: 7px solid crimson;
 }
@@ -115,81 +116,88 @@ footer{
     }
 
 
-@media (max-width:500px){
+  @media (min-width:10px) and  (max-width:320px){
+    
+    .brand{
+        font-size:1.2rem;
+        margin-left: 1rem;
+    }
     .main-text h1{
         
-    font-size: 50px;
-    margin-bottom: 30px;
-    line-height: 50px;
+        font-size: 2.5rem;
+        line-height: 2rem;
     }
-    .secondary-text small{
-        margin-bottom: 50px;
-        font-size: 17px;
+    .secondary-text small {
+        font-size: 1rem !important;
+    }
+    .card{
         
+        max-width: 15rem !important;
+        height: auto;
+        margin-left: 1rem;
     }
-    .brand strong{
-        font-size:25px !important;
-        padding-left: 15px;
+    .title a{
+        font-size: .9rem;
+
     }
-    .dot{
-        font-size: 25px;
+    .icons{
+        max-width:2rem ;
     }
 
+
+
+  }
+
+  @media (min-width:321px) and  (max-width:575px){
+    
+    .brand{
+        font-size:2.1rem;
+        margin-left: 1.5rem;
+    }
+    .main-text h1{
+        
+        font-size: 3.5rem;
+        line-height: 3rem;
+    }
+    .secondary-text small {
+        font-size: 1rem !important;
+    }
+    .card{
+        
+        max-width: 25rem !important;
+        height: auto;
+        margin-right: 5% !important;
+        
+    }
     article{
-        
-        max-width: 350px;
-        height: auto; 
-            
-   }
-
+        margin-left: 5% !important;
+    }
    
-   .card h3 a{
-       font-size: 22px;
-       margin-left: 5px !important;
-   }
 
 
+  }
 
-
-
-}
-
-@media (max-width: 999px){
+  @media(max-width:999px){
     
 
-   .grid{
-       margin-left: 10px !important;
-   }
-   
-}
-
-
-@media (min-width: 768px){
-    article{
-        margin-left: 100px !important;
-    }
-}
-
-@media (min-width: 400px){
-    article{
-        margin-left: 30px !important;
-        max-width: 400px;
-    }
-
-}
-
-@media (min-width: 750px){
-    article{
-        margin-left: 150px !important;
-        max-width: 400px;
-    }
-
-}
-
-@media (min-width: 1200px){
-    .grid{
-        margin-left: -100px !important;
+    .card{
         
-    }
+        max-width: 30rem !important;
+        height: auto;
+        margin-left: 10%;
 
-}
+    }
+    .brand{
+        font-size: 1.5rem;
+    }
+    .dot{
+        font-size:30px;
+    }
+    .main-text h1{
+        margin-left: 10px;
+    }
+   
+
+
+  }
+
