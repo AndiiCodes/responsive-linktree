@@ -106,6 +106,21 @@ font-weight: 400;
         font-size: 25px;
     }
 
+    article{
+        
+        width: 350px;
+        height: 170px; 
+            
+   }
+
+   .grid{
+       margin-left: 50px !important;
+   }
+   .card h3 a{
+       font-size: 22px;
+
+   }
+
 
 
 
