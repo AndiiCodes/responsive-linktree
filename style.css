@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*,body{
+    font-family: Inter, Arial, Helvetica, sans-serif;;
+    
+}
+
+.brand{
+    font-size: 30px;
+}
+.dot{
+    font-size: 40px;
+    color: crimson;
+}
+.links a:hover{
+    color: crimson;
+}
+
+.main-text{
+    display: flex;
+    justify-content: center;
+}
+.main-text h1{
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+.secondary-text{
+    
+    display: flex;
+    justify-content: center;
+}
+.secondary-text small{
+    margin-bottom: 50px;
+
+font-size: 20px;
+font-weight: 400;
+}
+.grid {
+    column-gap: 1rem;
+}
+ article{
+     max-width: 500px;
+     height: 200px; 
+         
+}
+
+.card{
+    padding-top: 10px;
+    border-left: 7px solid crimson;
+}
+
+.icons{
+    max-width: 50px;
+    margin-right: 20px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: crimson;
+}
+.title{
+    font-size: 27px;
+}
+
+
+
+
+.title a{
+    font-weight: 700;
+    color: #48BBF6;
+    text-decoration: underline;
+}
+
+
+.title a:hover{
+    color: #3185af;
+}
+
+
+.dot2{
+    color: crimson;
+    font-size: 70px;
+}
+
+.card{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width:500px){
+    .main-text h1{
+        
+    font-size: 50px;
+    margin-bottom: 30px;
+    line-height: 50px;
+    }
+    .secondary-text small{
+        margin-bottom: 50px;
+        font-size: 17px;
+        
+    }
+    .brand strong{
+        font-size:25px !important;
+        padding-left: 15px;
+    }
+    .dot{
+        font-size: 25px;
+    }
+
+
+
+
+}
+
+
+footer{
+text-align: center;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+
+.foot-icon{
+    width: 20px;
+    color: crimson;
+}
+
+footer p a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+footer p a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
