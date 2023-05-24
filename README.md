@@ -32,10 +32,9 @@
 <p>Responsive LinkTree provides various customization options to tailor your landing page to your liking. Here are some ways to customize your page:</p>
 
 <ul>
-  <li><strong>Styling:</strong> Modify the CSS styles in the <code>styles.css</code> file to change the colors, fonts, and layout of your landing page.</li>
-  <li><strong>Logo:</strong> Replace the default logo image (<code>img/logo.png</code>) with your own logo or profile picture. Ensure that the image is square and optimized for the web.</li>
-  <li><strong>Background Image:</strong> Update the background image by replacing the default image (<code>img/background.jpg</code>) with your preferred image. You can also remove it or modify the background styles in the <code>styles.css</code> file.</li>
-  <li><strong>Font Awesome Icons:</strong> Use any Font Awesome icon class for each link to enhance the visual representation of your links. Update the <code>icon</code> property in the <code>links.js</code> file with the desired icon class.</li>
+  <li><strong>Styling:</strong> Modify the CSS styles in the <code>style.css</code> file to change the colors, fonts, and layout of your landing page.</li>
+  <li><strong>Favicon:</strong> Replace the default favicon image (<code>favicon.png</code>) with your own favicon or profile picture. Ensure that the image is square and optimized for the web.</li>
+  <li><strong>Font Awesome Icons:</strong> Use any Font Awesome icon class for each link to enhance the visual representation of your links. Update the <code>SVGs</code> property in the <code>Index.html</code> file with the desired icon class.</li>
 </ul>
 
 <h2>Contributing</h2>
@@ -62,3 +61,4 @@
 <p>If you have any questions, suggestions, or feedback, feel free to reach out.</p>
 
 <img src="https://ibb.co/ZfXFjwW" alt="Image Preview">
+
