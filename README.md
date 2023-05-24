@@ -21,13 +21,6 @@
 <ol>
   <li><strong>Clone or Download:</strong> Clone this repository or download it as a ZIP file to your local machine.</li>
   <li><strong>Customize the Landing Page:</strong> Open the <code>index.html</code> file in a text editor and modify the content, styling, and links according to your preferences.</li>
-  <li><strong>Add Your Links:</strong> Update the <code>links.js</code> file with your desired links. Each link should be in the following format:
-    <pre><code>{
-  title: 'Link Title',
-  url: 'https://example.com',
-  icon: 'fab fa-github', // Font Awesome icon class (optional)
-}</code></pre>
-  </li>
   <li><strong>Preview and Test:</strong> Open the <code>index.html</code> file in a web browser to preview your landing page. Test the links to ensure they navigate correctly.</li>
   <li><strong>Deploy to GitHub Pages:</strong> If you want to host your landing page on GitHub Pages, follow the instructions in the GitHub Pages documentation to set it up.</li>
 </ol>
@@ -57,7 +50,7 @@
 
 <ul>
   <li>Font Awesome - for icons</li>
-  <li>Normalize.css - for cross-browser consistency</li>
+  <li>Pico.css - for Styling</li>
 </ul>
 
 <p>Special thanks to the developers of these tools and frameworks for their contributions.</p>
