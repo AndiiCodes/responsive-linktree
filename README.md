@@ -1,3 +1,5 @@
+![Image Preview](preview.png)
+
 <h1><strong>Responsive LinkTree</strong></h1>
 
 <p><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></p>
