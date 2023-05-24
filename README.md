@@ -60,5 +60,7 @@
 
 <p>If you have any questions, suggestions, or feedback, feel free to reach out.</p>
 
-<img src="https://ibb.co/ZfXFjwW" alt="Image Preview">
+
+
+<p><a href="https://www.buymeacoffee.com/andiicodes"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="andiicodes" /></a></p><br><br>
 
